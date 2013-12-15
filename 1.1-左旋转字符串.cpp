@@ -20,19 +20,19 @@ void leftrotate(char *p, int m)
      if(m > 0 && m <= len)
      {
           char *xstart, *xend;
-        	char *ystart, *yend;
-        	xstart = p;
-        	xend = p + m -1;
+          char *ystart, *yend;
+          xstart = p;
+          xend = p + m -1;
           ystart = p + m;
-        	yend = p + len -1;
-        	rotate(xstart, xend);
-        	rotate(ystart, yend);
-        	rotate(p, p + len -1);      
+          yend = p + len -1;
+          rotate(xstart, xend);
+          rotate(ystart, yend);
+          rotate(p, p + len -1);      
      }     
 }
 int main()
 {
-    char str[] = "abcdefghijk";
-    leftrotate(str, 3);
-    cout<<str<<endl;
+     char str[] = "abcdefghijk";
+     leftrotate(str, 3);
+     cout<<str<<endl;
 } 
