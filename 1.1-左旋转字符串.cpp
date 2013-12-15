@@ -15,7 +15,7 @@ void rotate(char *start, char *end)
 void leftrotate(char *p, int m)
 {
      if(p == NULL) 
-        	return;
+          return;
      int len = strlen(p);
      if(m > 0 && m <= len)
      {
