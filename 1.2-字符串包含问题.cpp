@@ -6,12 +6,10 @@ int main()
 {
     string strOne = "ABCDEFGHIJKHER";
     string strTwo = "DFGHJAAWE";
-    
     //辅助数组并清零
     int hash[26] = {0};
     //辅助数组中元素个数
     int num = 0;
-    
     //遍历短字符串 
     for(int j = 0; j < strTwo.length(); j++)
     {
