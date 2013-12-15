@@ -19,7 +19,7 @@ void leftrotate(char *p, int m)
      int len = strlen(p);
      if(m > 0 && m <= len)
      {
-        	char *xstart, *xend;
+          char *xstart, *xend;
         	char *ystart, *yend;
         	xstart = p;
         	xend = p + m -1;
