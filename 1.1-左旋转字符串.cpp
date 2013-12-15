@@ -5,11 +5,11 @@ void rotate(char *start, char *end)
 {
      while(start != NULL && end != NULL && start < end)
      {
-        	char temp = *start;
-        	*start = *end;
-        	*end = temp;
-        	start++;
-        	end--;   
+          char temp = *start;
+          *start = *end;
+          *end = temp;
+          start++;
+          end--;   
      }            
 }
 void leftrotate(char *p, int m)
@@ -23,7 +23,7 @@ void leftrotate(char *p, int m)
         	char *ystart, *yend;
         	xstart = p;
         	xend = p + m -1;
-        	ystart = p + m;
+          ystart = p + m;
         	yend = p + len -1;
         	rotate(xstart, xend);
         	rotate(ystart, yend);
