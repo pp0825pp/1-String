@@ -1,7 +1,6 @@
 #include<iostream>
 #include<string> 
 using namespace std;
-
 void rotate(char *start, char *end)
 {
      while(start != NULL && end != NULL && start < end)
@@ -13,7 +12,6 @@ void rotate(char *start, char *end)
         end--;   
      }            
 }
-
 void leftrotate(char *p, int m)
 {
      if(p == NULL) 
@@ -32,7 +30,6 @@ void leftrotate(char *p, int m)
         rotate(p, p + len -1);      
      }     
 }
-
 int main()
 {
     char str[] = "abcdefghijk";
