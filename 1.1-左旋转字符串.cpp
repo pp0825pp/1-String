@@ -1,5 +1,5 @@
 #include<iostream>
-#include<string> 
+#include<cstring> 
 using namespace std;
 void rotate(char *start, char *end)
 {
